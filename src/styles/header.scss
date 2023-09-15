@@ -1,9 +1,29 @@
 $color-base: #FF6060;
 
-nav{
+.header{
     display: flex;
-        li{
-            text-decoration: none;
+    justify-content: space-between;
+    width: 86%;
+    margin: 45px auto 50px;
+    nav{
+        ul{
+            list-style-type: none;
+            display: flex;
+            gap: 50px;
+
+            li{
+                .activeLink{
+                text-decoration: underline;
+                }
+
+                a{
+                color: $color-base;
+                text-decoration: none;
+                }
+            
+            }
         }
-}
+    }
+};
+
 
