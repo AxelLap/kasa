@@ -8,6 +8,8 @@ import Home from './pages/Home';
 import Àpropos from './pages/Àpropos';
 import Error from './pages/Error';
 
+import './App.css'
+
 function App(){
     return(
         <>

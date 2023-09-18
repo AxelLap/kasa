@@ -1,2 +1,21 @@
 $color-base: #FF6060;
+*{
+    font-family: 'Montserrat', sans-serif;;
+}
 
+.home{
+
+    .cardContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 60px;
+        width: 1140px;
+        margin: auto;
+        height: auto;
+        border-radius: 25px;
+        background: #F6F6F6;
+        padding: 56px 50px;
+        margin-bottom: 50px;
+        
+    }
+}
