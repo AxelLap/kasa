@@ -1,11 +1,13 @@
-import { Link } from "react-router-dom";
+import { /*useParams,*/ Link } from "react-router-dom";
 import '../styles/components/card.scss'
 
 function Card(props) {
-    const { cover, title } = props;
 
+    //
+    const { id, cover, title } = props;
+    console.log(id);
     return (
-        <Link className='card'>
+        <Link to={`/accommodation/${id}`} className='card'>
             <img className='image' alt='Logement' src={cover}></img>
             <div>
             </div>

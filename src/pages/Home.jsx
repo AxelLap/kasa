@@ -6,7 +6,7 @@ import Card from '../components/Card';
 import Banner from '../components/Banner';
 import img from '../assets/cliff.svg'
 
-import { listeLogements } from '../datas/listeLogements';
+import { accomodationList } from '../datas/accomodationList';
 
 function Home() {
 
@@ -20,12 +20,12 @@ function Home() {
       />
 
       <div className="cardContainer">
-        {listeLogements.map((logement) => (
+        {accomodationList.map((accomodation) => (
           <Card
-            key={logement.id}
-            id={logement.id}
-            cover={logement.cover}
-            title={logement.title}
+            key={accomodation.id}
+            id={accomodation.id}
+            cover={accomodation.cover}
+            title={accomodation.title}
           />
         ))
 

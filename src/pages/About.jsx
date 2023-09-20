@@ -1,20 +1,20 @@
-import { listeAPropos } from '../datas/listeAPropos';
+import { aboutList } from '../datas/aboutList';
 
 import Banner from '../components/Banner';
 import Collapse from '../components/Collapse';
 
 import img from '../assets/forest.svg';
 
-import '../styles/pages/apropos.scss'
+import '../styles/pages/about.scss'
 
-function Àpropos() {
+function About() {
   return (
     <div className="apropos-container">
       <Banner
         imgSrc={img}
       />
       <div className="collapse-container">
-        {listeAPropos.map((item) => (
+        {aboutList.map((item) => (
           <Collapse
             key={item.title}
             title={item.title}
@@ -26,4 +26,4 @@ function Àpropos() {
     </div>
   );
 }
-export default Àpropos;
+export default About;
