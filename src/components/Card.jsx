@@ -1,5 +1,7 @@
-import { /*useParams,*/ Link } from "react-router-dom";
-import '../styles/components/card.scss'
+//hooks
+import { Link } from "react-router-dom";
+//style
+//import '../styles/components/card.scss'
 
 function Card(props) {
 

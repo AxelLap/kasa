@@ -1,4 +1,4 @@
-import '../styles/components/banner.scss'
+//import '../styles/components/banner.scss'
 
 function Banner(props) {
 

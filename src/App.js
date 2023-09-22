@@ -1,6 +1,9 @@
 
 import { Routes, Route} from 'react-router-dom';
 
+import './styles/css/pages.css'
+import './styles/css/components.css'
+
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -11,6 +14,7 @@ import Accomodation from './pages/Accomodation'
 
 
 import './App.css'
+
 
 
 function App(){

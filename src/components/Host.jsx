@@ -1,5 +1,5 @@
 //style
-import '../styles/components/host.scss'
+//import '../styles/components/host.scss'
 
 function Host(props) {
     const { name, picture } = props;

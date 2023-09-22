@@ -1,5 +1,5 @@
 //style
-import '../styles/components/ratings.scss'
+//import '../styles/components/ratings.scss'
 
 //images
 import activeStar from '../assets/active-star.svg'

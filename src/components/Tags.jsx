@@ -1,5 +1,5 @@
 //style
-import '../styles/components/tags.scss'
+//import '../styles/components/tags.scss'
 
 function Tags(props) {
 

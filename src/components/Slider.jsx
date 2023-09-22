@@ -1,9 +1,10 @@
+//hooks
 import { useState } from "react";
-
+//images
 import vectorLeft from '../assets/vector-left.svg'
 import vectorRight from '../assets/vector-right.svg'
-
-import '../styles/components/slider.scss'
+//style
+//import '../styles/components/slider.scss'
 
 function Slider(props) {
     const { totalImages, images } = props;

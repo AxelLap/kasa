@@ -11,7 +11,7 @@ import Collapse from "../components/Collapse"
 import { accomodationList } from "../datas/accomodationList"
 
 //style
-import '../styles/pages/accomodation.scss'
+//import '../styles/pages/accomodation.scss'
 
 function Accomodation() {
     const { id } = useParams();

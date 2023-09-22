@@ -1,11 +1,12 @@
+//datas
 import { aboutList } from '../datas/aboutList';
-
+//components
 import Banner from '../components/Banner';
 import Collapse from '../components/Collapse';
-
+//images
 import img from '../assets/forest.svg';
-
-import '../styles/pages/about.scss'
+//style
+//import '../styles/pages/about.scss'
 
 function About() {
   return (
