@@ -5,7 +5,11 @@ $color-base: #FF6060;
     justify-content: space-between;
     width: 86%;
     margin: 45px auto 50px;
+    img{
+        height: 60px;
+    }
     nav{
+        
         ul{
             list-style-type: none;
             display: flex;
@@ -19,13 +23,37 @@ $color-base: #FF6060;
                 a{
                 color: $color-base;
                 text-decoration: none;
-                font-weight: bold;
-                font-size: large;
+                font-weight:bold;
+                font-size: 26px;
                 }
             
             }
         }
     }
 };
+
+@media all and(max-width: 650px){
+    .header{
+        width: 90%;
+        margin: 20px auto 27px;
+        img{
+            width: 40%;
+        }
+       nav{
+        
+        ul{
+            align-items: center;
+            gap:30px;
+            li{
+                a{
+                    font-size: 12px;
+                    text-transform: uppercase;
+                }
+            }
+
+        }
+    }  
+    }
+}
 
 

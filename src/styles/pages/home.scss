@@ -4,18 +4,48 @@ $color-base: #FF6060;
 }
 
 .home{
-
+    width: 86%;
+    margin: auto;
+    min-width: 335px;
     .cardContainer{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 60px;
-        width: 1140px;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: center;
+        box-sizing: border-box;
+        row-gap: 50px;
+        column-gap: 5%;
+        width: 100%;
         margin: auto;
         height: auto;
         border-radius: 25px;
         background: #F6F6F6;
-        padding: 56px 50px;
         margin-bottom: 50px;
+        padding: 56px 50px;
+    }
+}
+
+@media all and ( max-width: 1000px){
+    .home{
+        .cardContainer{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+    }
+   
         
+}}
+
+@media all and (max-width: 650px){
+    .home{
+        width: 90%;
+        
+        margin: auto;
+       
+        .cardContainer{
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            background-color: white;
+            gap: 20px;
+        }
     }
 }

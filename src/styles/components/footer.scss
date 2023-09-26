@@ -8,8 +8,20 @@
     align-items: center;
     gap: 30px;
     padding-top: 66px;
+    font-weight: bold;
     img{
         width:122px;
         height:40px;
+    }
+}
+
+@media all and (max-width:650px){
+    .footer{
+      span{
+        width: 150px;
+        word-wrap: break-word;
+        text-align: center;
+        letter-spacing: 1px;
+    }  
     }
 }

@@ -1,12 +1,12 @@
 //import '../styles/components/banner.scss'
 
 function Banner(props) {
-
+    const { title, alt, imgSrc } = props;
     return (
         <div className='banner'>
-            <img src={props.imgSrc} alt={props.alt} />
+            <img src={imgSrc} alt={alt} />
             <div className='overlay'></div>
-            <h1>{props.title}</h1>
+            <h1>{title}</h1>
         </div>
     )
 }

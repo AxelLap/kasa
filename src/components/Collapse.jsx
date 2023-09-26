@@ -28,8 +28,8 @@ function Collapse(props) {
             </div>
 
 
-            <div className={open ? "content-show" : "content-hide"}>
-                <div className='collapse-content'>
+            <div className={open ? `content-show ${title}` : "content-hide"}>
+                <div className="collapse-content">
                     <p>{description}</p>
                 </div>
             </div>

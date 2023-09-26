@@ -1,5 +1,5 @@
 
-import { Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import './styles/css/pages.css'
 import './styles/css/components.css'
@@ -13,22 +13,19 @@ import Error from './pages/Error';
 import Accomodation from './pages/Accomodation'
 
 
-import './App.css'
-
-
 
 function App(){
     return(
-        <>
+        <BrowserRouter>
         <Header/>
         <Routes>
             <Route path='/' element={<Home/>}></Route>
-            <Route path='/about' element={<About/>}></Route>
-            <Route path='/*' element={<Error/>}></Route>
-            <Route path='/accommodation/:id' element={<Accomodation/>}></Route>
+            <Route path='/about' element={<About/>}/>
+            <Route path='accomodation/:id' element={<Accomodation/>}/>
+            <Route path='/*' element={<Error/>}/>
         </Routes>
         <Footer/>
-        </>
+        </BrowserRouter>
     )
 }
 

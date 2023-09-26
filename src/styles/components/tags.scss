@@ -1,11 +1,14 @@
 .tagsWrapper{
-    width: 50%;
+    width: 100%;
+    
+    height: auto;
     ul{
         display: flex;
         list-style-type: none;
         gap: 5px;
         justify-content: flex-start;
         padding: 5px;
+        flex-wrap: wrap;
     }
     
 
@@ -22,5 +25,14 @@
         font-size: 14px;
         font-weight: bold;
         text-align: center;
+    }
+
+}
+
+@media all and(max-width:650px){
+    .tagsWrapper{
+        ul{
+            justify-content: center;
+        }
     }
 }

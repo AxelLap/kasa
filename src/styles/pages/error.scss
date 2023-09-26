@@ -6,7 +6,7 @@
     width: 80%;
     margin: 139px auto 139px auto;
     gap: 139px;
-
+    
     span {
         font-weight: bold;
         font-size: xx-large;
@@ -16,5 +16,28 @@
         color: #FF6060;
         font-weight: bold;
         font-size: large;
+    }
+}
+
+@media all and(max-width: 650px){
+    .error{
+        width: 90%;
+        gap: 70px;
+        margin: 70px auto 70px auto;
+        img{
+            width: 80%
+        }
+        span{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+        }
+        .returnHome{
+            width: 90%;
+            margin: auto;
+            font-size: 15px;
+            text-align: center;
+        }
     }
 }
