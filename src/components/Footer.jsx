@@ -1,5 +1,3 @@
-//import '../styles//components/footer.scss'
-
 import img from '../assets/kasa-logo-white.svg'
 
 function Footer() {

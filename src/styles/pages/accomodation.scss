@@ -61,10 +61,12 @@
 }
 .description{
     width: 47%;
+    overflow: scroll;
     
 }
 .equipement{
     width: 47%;
+    overflow: scroll;
     .item{
         list-style: none;
     }

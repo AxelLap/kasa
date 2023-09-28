@@ -1,7 +1,3 @@
-//style
-//import '../styles/components/ratings.scss'
-
-//images
 import activeStar from '../assets/active-star.svg'
 import inactiveStar from '../assets/inactive-star.svg'
 

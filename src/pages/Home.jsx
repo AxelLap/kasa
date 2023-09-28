@@ -1,19 +1,11 @@
-
-//style
-//import '../styles/pages/home.scss'
-//components
 import Card from '../components/Card';
 import Banner from '../components/Banner';
 
-//images
 import img from '../assets/cliff.svg'
 
-//datas
 import { accomodationList } from '../datas/accomodationList';
 
 function Home() {
-
-
   return (
     <div className="home">
       <Banner

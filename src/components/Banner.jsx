@@ -1,5 +1,3 @@
-//import '../styles/components/banner.scss'
-
 function Banner(props) {
     const { title, alt, imgSrc } = props;
     return (

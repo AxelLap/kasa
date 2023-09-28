@@ -1,9 +1,6 @@
-//hooks
 import { NavLink } from "react-router-dom";
-//images
+
 import img from '../assets/not-found.svg'
-//style
-//import '../styles/pages/error.scss'
 
 function Error() {
   return (

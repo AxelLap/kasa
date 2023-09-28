@@ -12,8 +12,6 @@ import About from './pages/About';
 import Error from './pages/Error';
 import Accomodation from './pages/Accomodation'
 
-
-
 function App(){
     return(
         <BrowserRouter>

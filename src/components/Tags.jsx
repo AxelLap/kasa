@@ -1,6 +1,3 @@
-//style
-//import '../styles/components/tags.scss'
-
 function Tags(props) {
 
     const { tagsList } = props;
