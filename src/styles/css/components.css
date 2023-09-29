@@ -192,7 +192,7 @@
     list-style-type: none;
     display: flex;
     gap: 50px; }
-    .header nav ul li .activeLink {
+    .header nav ul li .active {
       text-decoration: underline; }
     .header nav ul li a {
       color: #FF6060;
