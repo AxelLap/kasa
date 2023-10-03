@@ -1,9 +1,9 @@
-import Card from '../components/Card';
-import Banner from '../components/Banner';
+import Card from '../../components/card/Card';
+import Banner from '../../components/banner/Banner';
 
-import img from '../assets/cliff.svg'
+import img from '../../assets/cliff.png'
 
-import { accomodationList } from '../datas/accomodationList';
+import { accomodationList } from '../../datas/accomodationList';
 
 function Home() {
   return (

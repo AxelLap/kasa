@@ -1,4 +1,4 @@
-import img from '../assets/kasa-logo-white.svg'
+import img from '../../assets/kasa-logo-white.svg'
 
 function Footer() {
   return (

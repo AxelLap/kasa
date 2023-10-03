@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from '../assets/kasa-logo.svg';
+import logo from '../../assets/kasa-logo.svg';
 
 function Header() {
   return (
@@ -8,7 +8,7 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <NavLink to="/" activeclassname="active">Acceuil</NavLink>
+            <NavLink to="/" activeclassname="active">Accueil</NavLink>
           </li>
           <li>
             <NavLink to="/about" activeclassname="active">À propos</NavLink>

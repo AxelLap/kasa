@@ -1,9 +1,8 @@
-import activeStar from '../assets/active-star.svg'
-import inactiveStar from '../assets/inactive-star.svg'
+import activeStar from '../../assets/active-star.svg'
+import inactiveStar from '../../assets/inactive-star.svg'
 
 function Ratings(props) {
     const { rating } = props;
-    console.log(rating);
 
     return (
 

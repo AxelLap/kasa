@@ -1,9 +1,9 @@
-import { aboutList } from '../datas/aboutList';
+import { aboutList } from '../../datas/aboutList';
 
-import Banner from '../components/Banner';
-import Collapse from '../components/Collapse';
+import Banner from '../../components/banner/Banner';
+import Collapse from '../../components/collapse/Collapse';
 
-import img from '../assets/forest.svg';
+import img from '../../assets/forest.png';
 
 function About() {
   return (

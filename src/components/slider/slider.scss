@@ -57,10 +57,17 @@ img{
     z-index: 3;
 }
 
+.hiden{
+    display:none;
+}
+
 @media all and (max-width: 650px){
     .sliderWrapper{
         height: 255px;
         margin-bottom: 15px;
+        .counter{
+            display: none;
+        }
     }
     
     .left{

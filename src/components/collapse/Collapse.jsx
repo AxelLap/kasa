@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import arrow from '../assets/arrow-inactive.svg'
+import arrow from '../../assets/arrow-inactive.svg'
 
 function Collapse(props) {
     const [open, setOPen] = useState(false);

@@ -1,8 +1,8 @@
-import Slider from "../components/Slider"
-import Host from "../components/Host"
-import Tags from "../components/Tags"
-import Ratings from "../components/Ratings"
-import Collapse from "../components/Collapse"
+import Slider from "../../components/slider/Slider"
+import Host from "../../components/host/Host"
+import Tags from "../../components/tags/Tags"
+import Ratings from "../../components/ratings/Ratings"
+import Collapse from "../../components/collapse/Collapse"
 
 function AccomodationContent(props) {
 
@@ -11,30 +11,22 @@ function AccomodationContent(props) {
 
     return (
         <div className="accomodation-container">
-
             <Slider
                 totalImages={currentAccomodation.pictures.length}
                 images={currentAccomodation.pictures}
             />
-
             <div className="info-wrapper">
                 <div className="accomodation-info">
-
                     <div className="titleWrapper">
                         <h2 className="title">{currentAccomodation.title}</h2>
                         <p className="location">{currentAccomodation.location}</p>
                     </div>
-
                     <Tags
                         name={hostData.name}
                         tagsList={currentAccomodation.tags}
                     />
-
-
                 </div>
-
                 <div className="host-info">
-
                     <Host
                         name={hostData.name}
                         picture={hostData.picture}
@@ -44,9 +36,6 @@ function AccomodationContent(props) {
                     />
                 </div>
             </div>
-
-
-
             <div className="descriptionAndEquipements">
                 <div className="description">
                     <Collapse
@@ -62,9 +51,9 @@ function AccomodationContent(props) {
                         ))}
                     />
                 </div>
-
             </div>
         </div>
     )
 }
 export default AccomodationContent
+

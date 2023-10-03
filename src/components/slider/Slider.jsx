@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import vectorLeft from '../assets/vector-left.svg'
-import vectorRight from '../assets/vector-right.svg'
+import vectorLeft from '../../assets/vector-left.svg'
+import vectorRight from '../../assets/vector-right.svg'
 
 function Slider(props) {
     const { totalImages, images } = props;
@@ -22,14 +22,14 @@ function Slider(props) {
             <div className="sliderWrapper">
                 <img src={images[currentImage]} alt="" className="sliderImg" />
                 <div>
-                    <button className="sliderBtn left" onClick={handlePrevBtn}>
+                    <button className={totalImages === 1 ? "hiden" : "sliderBtn left"} onClick={handlePrevBtn}>
                         <img src={vectorLeft} alt="" />
                     </button>
-                    <button className="sliderBtn right" onClick={handleNextBtn}>
+                    <button className={totalImages === 1 ? "hiden" : "sliderBtn right"} onClick={handleNextBtn}>
                         <img src={vectorRight} alt="" />
                     </button>
                 </div>
-                <span className="counter">{currentNumber}/{totalImages}</span>
+                <span className={totalImages === 1 ? "hiden" : "counter"}>{currentNumber}/{totalImages}</span>
             </div>
         </>
 
