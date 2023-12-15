@@ -17,7 +17,7 @@ function App() {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path='/' element={<Home />}></Route>
+                <Route path='/oc_p6' element={<Home />}></Route>
                 <Route path='/about' element={<About />} />
                 <Route path='accomodation/:id' element={<Accomodation />} />
                 <Route path='/*' element={<Error />} />
