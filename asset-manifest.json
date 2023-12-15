@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1c46cfb.css",
-    "main.js": "/static/js/main.06d9733a.js",
-    "static/media/forest.png": "/static/media/forest.0fc47583e801991911d1.png",
-    "static/media/cliff.png": "/static/media/cliff.0bdad14275c7c8aff990.png",
-    "static/media/kasa-logo.svg": "/static/media/kasa-logo.04a365d85dff927443227bc626c1b70d.svg",
-    "static/media/kasa-logo-white.svg": "/static/media/kasa-logo-white.a704cd7679e4c79056dcca5dc733d583.svg",
-    "static/media/not-found.svg": "/static/media/not-found.f20604d9c3f0bf4b2680c8aab9b26cc3.svg",
-    "static/media/active-star.svg": "/static/media/active-star.30b8963e66a47777ef47296f505567be.svg",
-    "static/media/inactive-star.svg": "/static/media/inactive-star.68fd8a1ead5375bd59bb6ae0b633ffd3.svg",
-    "index.html": "/index.html",
-    "static/media/arrow-inactive.svg": "/static/media/arrow-inactive.3c682982a2eb7c406dbaddc55cd45ed1.svg",
-    "static/media/vector-right.svg": "/static/media/vector-right.88153a5d119c2744ffe34dca1ef843df.svg",
-    "static/media/vector-left.svg": "/static/media/vector-left.19918a1634b1441a25ae0b50e6b1f85b.svg",
-    "main.d1c46cfb.css.map": "/static/css/main.d1c46cfb.css.map",
-    "main.06d9733a.js.map": "/static/js/main.06d9733a.js.map"
+    "main.css": "/oc_p6/static/css/main.d1c46cfb.css",
+    "main.js": "/oc_p6/static/js/main.a1410d91.js",
+    "static/media/forest.png": "/oc_p6/static/media/forest.0fc47583e801991911d1.png",
+    "static/media/cliff.png": "/oc_p6/static/media/cliff.0bdad14275c7c8aff990.png",
+    "static/media/kasa-logo.svg": "/oc_p6/static/media/kasa-logo.04a365d85dff927443227bc626c1b70d.svg",
+    "static/media/kasa-logo-white.svg": "/oc_p6/static/media/kasa-logo-white.a704cd7679e4c79056dcca5dc733d583.svg",
+    "static/media/not-found.svg": "/oc_p6/static/media/not-found.f20604d9c3f0bf4b2680c8aab9b26cc3.svg",
+    "static/media/active-star.svg": "/oc_p6/static/media/active-star.30b8963e66a47777ef47296f505567be.svg",
+    "static/media/inactive-star.svg": "/oc_p6/static/media/inactive-star.68fd8a1ead5375bd59bb6ae0b633ffd3.svg",
+    "index.html": "/oc_p6/index.html",
+    "static/media/arrow-inactive.svg": "/oc_p6/static/media/arrow-inactive.3c682982a2eb7c406dbaddc55cd45ed1.svg",
+    "static/media/vector-right.svg": "/oc_p6/static/media/vector-right.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/vector-left.svg": "/oc_p6/static/media/vector-left.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "main.d1c46cfb.css.map": "/oc_p6/static/css/main.d1c46cfb.css.map",
+    "main.a1410d91.js.map": "/oc_p6/static/js/main.a1410d91.js.map"
   },
   "entrypoints": [
     "static/css/main.d1c46cfb.css",
-    "static/js/main.06d9733a.js"
+    "static/js/main.a1410d91.js"
   ]
 }
